@@ -1,3 +1,13 @@
+::Javascript [script]
+::@include node_modules/jquery/dist/jquery.min.js
+::@include node_modules/popper.js/dist/popper.min.js
+::@include node_modules/bootstrap/dist/js/bootstrap.bundle.min.js
+::@include node_modules/@fortawesome/fontawesome-free/js/all.min.js
+::@include node_modules/moment/dist/moment.js
+::@include node_modules/moment/locale/es.js
+::@include node_modules/moment-timezone/moment-timezone.js
+::@include node_modules/letteringjs/jquery.lettering.js
+
 ::CoffeScript [coffee script]
 #env = 'production'
 env = 'staging'
@@ -6,11 +16,6 @@ env = 'staging'
 ::@include assets/coffee/config.coffee
 ::@include assets/coffee/settings.coffee
 ::@include assets/coffee/SaveAPI.coffee
-
-::@include assets/coffee/bootstrap-js.coffee
-::@include assets/coffee/font-awesome.coffee
-::@include assets/coffee/moment-js.coffee
-::@include assets/coffee/lettering-js.coffee
 
 ::@include assets/coffee/passage-init.coffee
 ::@include assets/coffee/passage-start.coffee

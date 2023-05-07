@@ -26,7 +26,7 @@
     "bootstrap": "^4.5.0",
     "jquery": "^3.5.1",
     "letteringjs": "^0.7.0",
-    "moment": "^2.26.0",
+    "moment": "^2.29.4",
     "moment-timezone": "^0.5.31",
     "popper.js": "^1.16.1"
   }
